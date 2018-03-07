@@ -1,0 +1,25 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "XfGF6G3ISzsY6YYtSqr0u3HG1bs=",
+			"path": "github.com/Sirupsen/logrus",
+			"revision": "3d4380f53a34dcdc95f0c1db702615992b38d9a4",
+			"revisionTime": "2017-06-20T14:45:10Z"
+		},
+		{
+			"checksumSHA1": "6suqp7oMkZyny2OpkpqK2oYHCXc=",
+			"path": "github.com/go-sql-driver/mysql",
+			"revision": "1548d61ac1b48a30add201183a992009bc02af20",
+			"revisionTime": "2017-09-15T05:15:32Z"
+		},
+		{
+			"checksumSHA1": "ueM8opCEKotcaGq0gOA/vFF+hm4=",
+			"path": "github.com/julienschmidt/httprouter",
+			"revision": "d1898390779332322e6b5ca5011da4bf249bb056",
+			"revisionTime": "2018-02-22T16:05:26Z"
+		}
+	],
+	"rootPath": "archive"
+}
