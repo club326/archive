@@ -164,12 +164,12 @@ func (drop *Droper) Execute() error {
 func main() {
 	
 	record := Recorder{
-		dsn:					"dba_zs:zhaoshan123*@tcp(192.168.11.103:3301)/archive",
+		dsn:					"dba_zs:xxx@tcp(xxx:3301)/archive",
 		db:						"archive",
 		table:					"archive_record_log",
 	}
 	drop := Droper{
-		masterDSN:			"dba_zs:zhaoshan123*@tcp(192.168.11.103:3301)/lepus",
+		masterDSN:			"dba_zs:xxx@tcp(xxx:3301)/lepus",
 		db:					"lepus",
 		table:				"mysql_status_history",
 		partition:			true,
