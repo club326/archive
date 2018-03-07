@@ -13,7 +13,7 @@ type handler struct{
 	// apiV1	
 }
 
-//http://localhost:8888/backup/instance=192.168.11.103:3301&db=lepus&table=archive
+//http://localhost:8888/backup/instance=xxx:3301&db=lepus&table=archive
 func Backup(w http.ResponseWriter, r *http.Request, p httprouter.Params){
 	target := strings.Split(p.ByName("archiveTarget"),"&")
 	for _,tg := range target {
