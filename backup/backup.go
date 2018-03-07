@@ -276,17 +276,17 @@ func main() {
 		fileName:			"lepus_mysql_status_history",
 		}
 	archive := Archiver{
-		archiveDsn:			"dba_zs:zhaoshan123*@tcp(192.168.11.103:3301)/archive",
+		archiveDsn:			"dba_zs:xxx@tcp(xxx:3301)/archive",
 		archiveDb:			"archive",
 		archiveTable:		"mysql_status_history",
 	}
 	record := Recorder{
-		dsn:					"dba_zs:zhaoshan123*@tcp(192.168.11.103:3301)/archive",
+		dsn:					"dba_zs:xxx@tcp(xxx:3301)/archive",
 		db:						"archive",
 		table:					"archive_record_log",
 	}
 	bak := Backer{
-		dsn:				"dba_zs:zhaoshan123*@tcp(192.168.11.103:3301)/lepus",
+		dsn:				"dba_zs:xxx@tcp(xxx:3301)/lepus",
 		db:					"lepus",
 		table:				"mysql_status_history",
 		partition:			true,
